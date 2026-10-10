@@ -1,0 +1,51 @@
+:root {
+  --color-bg: #FAF7F5; /* warm off-white blush */
+  --color-text: #6E6263; /* muted charcoal-plum */
+  --color-text-secondary: #8B7E7D; /* soft taupe */
+  --color-primary: #BC8589; /* dusty rose */
+  --color-secondary: #E5EBDD; /* soft sage green */
+  --color-tertiary: #ffffff; 
+  --color-cell: #F1F0F7; /* very pale lavender */
+  --color-x: #BC8589; /* dusty rose */
+  --color-o: #9295B8; /* muted lavender-blue */
+  --color-board: #ffffff;
+  --color-selected: #EAD1D0; /* muted dusty pink */
+  
+  --shadow: 0 4px 20px rgba(110, 98, 99, 0.06);
+  --shadow-hover: 0 8px 28px rgba(110, 98, 99, 0.1);
+  
+  font-family: 'Nunito Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  color: var(--color-text);
+}
+
+* {
+  box-sizing: border-box;
+}
